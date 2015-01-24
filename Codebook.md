@@ -10,12 +10,12 @@ The Variables, Train Variables, and Test Variables are used to produce the final
 * The Tr_x and T_x contain 17 features and for each feature 2 measurements (17 x 2 = 34 total)
 
 There were multiple steps to process the data.
-* 1) The features table was created and a variable was set with only the extracted features required (mean and std)
-* 2) The activity and subjects tables were created
-* 3) The train and test data tables were created separately and their column names were set by the features table and then the extracted features variable removed any columns without mean and std in their name. 
-* 4) The train and test data tables were merged with their respective subjects table and activity table
-* 5) The train and test data tables were merged together with rbind()
-* 6) A new data set was created with the mean values of the features
+1. The features table was created and a variable was set with only the extracted features required (mean and std)
+2. The activity and subjects tables were created
+3. The train and test data tables were created separately and their column names were set by the features table and then the extracted features variable removed any columns without mean and std in their name. 
+4. The train and test data tables were merged with their respective subjects table and activity table
+5. The train and test data tables were merged together with rbind()
+6. A new data set was created with the mean values of the features
 
 ## Variables
 * features: Imported "features.txt" file into a table
