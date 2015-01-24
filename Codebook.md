@@ -1,17 +1,17 @@
 #Getting-and-Cleaning-Data-Course-Project Code Book
-Introduction
+##Introduction
 =================================================================
 The getting and data cleaning process consists of many variables and are categorized in Variable, Train Variables, Test Variables, Train and Test Variables, and Tidy Data Variables.
 The Variables, Train Variables, and Test Variables are used to produce the final product. The final product are the Train and Test Variabls and Tidy Data Variables.
 The Tr_y and T_y contain 6 different activities
 The Tr_sbj and T_sbj contain 30 subjects
 The Tr_x and T_x contain 17 features and for each feature 2 measurements (17 x 2 = 34 total)
-Variables
+##Variables
 =================================================================
 * features: Imported "features.txt" file into a table
 * extract_features: extracted the rows that contain the word "mean" or "std"
 * activity: Imported "activity.txt"  file into a table 
-Train Variables
+##Train Variables
 =================================================================
 * Tr_x: Imported X_train.txt file into a table with features that contain the word "mean" or "std"
 * Tr_y: Contains the "y_train.txt" and the "activity"table 
